@@ -7,5 +7,5 @@ still_missing = mpr['Status']  == 'Still Missing'
 print(still_missing)
 
 # Select all dogs whose Dog Breed is not equal to Poodle
-not_poodle != mpr['Poodle']
+not_poodle = mpr['Dog Breed'] != 'Poodle'
 print(not_poodle)
